@@ -22,7 +22,7 @@ sont accessibles via les namespaces Food, Music et Friends. Je vous laisse analy
 
 **NOTE**
 
-Si vous êtes trop frileux pour utiliser la ligne de commande, vous pouvez utiliser un utilitaire du genre GitKraken.
+Si vous êtes trop frileux pour utiliser la ligne de commande, vous pouvez utiliser un utilitaire du genre GitKraken ou unget.
 
 
 **Commandes importantes**
