@@ -52,5 +52,14 @@ Pour ceux qui ne sont pas à l'aise avec Git et Github, voici un petit fil condu
 
 
 **A faire en plus**
+
+Pour ceux qui auront fini avant les autres, je vous propose d'aller plus loin.
+L'idée est de trouver plusieurs fonctionnalités ou améliorations à apporter au projet, de bien les scinder les unes des autres,
+et que chacun se charge dans développer une partie.
+
+* Découvrir les outils "Issue" et "Project" dans l'interface Github
+* Découvrir et tester le concept de branches dans Git
 * Faire des mini-stats sur la nourriture, la musique et les amis (nombre, totaux,...)
 * Améliorer le front-end (mettre des titres, des images, un lien vers le github, etc...)
+* Permettre de modifier les données des namespaces
+* etc...
