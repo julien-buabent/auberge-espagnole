@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "pretty": true,
+    "outDir": "./build",
+    "module": "amd",
+    "allowSyntheticDefaultImports": true
+  },
+  "files": [
+    "src/app.ts"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "auberge-espagnole",
+  "version": "1.0.0",
+  "description": "tp versioning",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julien-buabent/auberge-espagnole.git"
+  },
+  "author": "julien buabent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julien-buabent/auberge-espagnole/issues"
+  },
+  "homepage": "https://github.com/julien-buabent/auberge-espagnole#readme",
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "requirejs": "2.3.5",
+    "@types/jquery": "3.3.29"
+  }
+}
