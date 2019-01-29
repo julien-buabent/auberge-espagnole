@@ -25,6 +25,18 @@ sont accessibles via les namespaces Food, Music et Friends. Je vous laisse analy
 Si vous êtes trop frileux pour utiliser la ligne de commande, vous pouvez utiliser un utilitaire du genre GitKraken.
 
 
+**Commandes importantes**
+* git clone : cloner un repo
+* git pull : récupérer les dernieres modifs d'un repo (derniers commit)
+* git status : afficher les modifs en cours sur la branche locale
+* git add : ajouter les modif dans le repo local
+* git commit : engager les modifs (ajout à la version local en cours)
+* git push : envoyer mes modifs
+
+*Autres commandes*
+* git config : permet de changer la conf de git
+* git remote : permet de gérer les repo distants
+
 **Premier pas**
 
 Pour ceux qui ne sont pas à l'aise avec Git et Github, voici un petit fil conducteur pour démarrer :
@@ -37,19 +49,6 @@ Pour ceux qui ne sont pas à l'aise avec Git et Github, voici un petit fil condu
 * Faire fonctionner le projet sur votre PC
 * Apporter vos modifications (fichier classe + ajout de votre objet dans app.ts)
 * Pousser sur le repo officiel
-
-
-**Commandes importantes**
-git clone : cloner un repo
-git pull : récupérer les dernieres modifs d'un repo (derniers commit)
-git status : afficher les modifs en cours sur la branche locale
-git add : ajouter les modif dans le repo local
-git commit : engager les modifs (ajout à la version local en cours)
-git push : envoyer mes modifs
-
-*Autres commandes*
-git config : permet de changer la conf de git
-git remote : permet de gérer les repo distants
 
 
 **A faire en plus**
