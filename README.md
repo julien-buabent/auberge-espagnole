@@ -57,7 +57,7 @@ Pour ceux qui ne sont pas à l'aise avec Git et Github, voici un petit fil condu
 
 Pour ceux qui auront fini avant les autres, je vous propose d'aller plus loin.
 L'idée est de trouver plusieurs fonctionnalités ou améliorations à apporter au projet, de bien les scinder les unes des autres,
-et que chacun se charge dans développer une partie.
+et que chacun se charge d'en développer une partie.
 
 * Découvrir les outils "Issue" et "Project" dans l'interface Github
 * Découvrir et tester le concept de branches dans Git
