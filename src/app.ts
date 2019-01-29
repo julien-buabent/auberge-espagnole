@@ -7,11 +7,17 @@ let participants:Array<Participant> = [];
 
 //A FAIRE
 //Importez votre classe et instanciez votre objet à la suite
+
+
+/*
 //Julien Formateur
 import Julien_B from './class_julien';
 let julien = new Julien_B();
 participants.push(julien);
+*/
+
 /*
+A vous =>
 ...
 ...
 ...
