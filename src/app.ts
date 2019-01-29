@@ -10,7 +10,7 @@ let participants:Array<Participant> = [];
 
 
 /*
-//Julien Formateur
+//Julien Formateur TEST
 import Julien_B from './class_julien';
 let julien = new Julien_B();
 participants.push(julien);
