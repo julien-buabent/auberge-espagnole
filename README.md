@@ -12,8 +12,8 @@ c'est quand vous êtes convié à un évènement (soirée, etc...), et que tous 
 Vous allez devoir cloner le projet sur votre PC, y emmener des modifications, et apporter vos modifications sur le dossier officiel du projet (le dossier sur github).
 Donc quand tout le monde aura fini, on aura un projet partagé et complété par chacun de vous.
 
-*Vous devez effectuer deux modifications :*
-1. Créer votre propre classe *héritée de la classe Participant* dans le dossier /src (ex: class_julien_b.ts), qui vous permettra de choisir les choses que vous voulez emmener à l'auberge espagnole.
+**Vous devez effectuer deux modifications :**
+1. Créer votre propre classe **héritée de la classe Participant** dans le dossier /src (ex: class_julien_b.ts), qui vous permettra de choisir les choses que vous voulez emmener à l'auberge espagnole.
 2. Instancier un objet de votre classe dans le script principal (app.ts) et le mettre dans le tableau des participants
 
 Vous devez apporter de la nourriture (1 entrée, 1 plat, 1 dessert), une chanson, et deux amis (1 homme et 1 femme). Les données disponibles
