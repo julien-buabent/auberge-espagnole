@@ -28,14 +28,16 @@ Si vous êtes trop frileux pour utiliser la ligne de commande, vous pouvez utili
 **Commandes importantes**
 * git clone : cloner un repo
 * git pull : récupérer les dernieres modifs d'un repo (derniers commit)
-* git status : afficher les modifs en cours sur la branche locale
 * git add : ajouter les modif dans le repo local
 * git commit : engager les modifs (ajout à la version local en cours)
 * git push : envoyer mes modifs
+* git merge : fusionner deux fichiers manuellement
 
 *Autres commandes*
 * git config : permet de changer la conf de git
 * git remote : permet de gérer les repo distants
+* git status : afficher les modifs en cours sur la branche locale
+* git diff : afficher les différences entre deux versions d'un même fichier
 
 **Premier pas**
 
