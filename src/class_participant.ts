@@ -11,15 +11,10 @@ interface friends {
 
 export default class Participant {
 
-  /*
-  Faire les controles (que les données soit bien celles qui viennent des namespaces)
-  Faire les pull request ?
-  */
-
   private _name: string;
   private _food: food;
   private _music: string;
-  private _friends: friends;  
+  private _friends: friends;
 
   get name(): string {
     return this._name;
