@@ -13,12 +13,8 @@ participants.push(denis);
 
 
 
-
 //A FAIRE
 //Importez votre classe et instanciez votre objet à la suite
-
-
-
 
 
 
@@ -30,20 +26,13 @@ participants.push(julien);
 let alex = new Alex();
 participants.push(alex)
 
-//////////////// PARTICIPANT NICK /////////////////
-import {Nick_S} from "./class_Nick_S";
-let Nick = new Nick_S();
-participants.push(Nick);
-
-
-///////////////// END PARTICIPANT NICK ///////////
 
 /*
 A vous =>
 ...*/
 import Benoit from './class_benoit';
 let benoit = new Benoit();
-// console.log(benoit)
+console.log(benoit)
 participants.push(benoit)
 /*...
 //Emir - Alternant
@@ -53,24 +42,9 @@ let emir = new Emir();
 // console.dir(emir);
 participants.push(emir);
 /*...
-Kevin Dupas - Alternant.
+...
+...
 */
-import Kevin from './class_kevin';
-let kevin = new Kevin();
-participants.push(kevin);
-
-//FIN
-
-
-//  DEB KEVIN PART
-import Kevin974 from "./Kevin974.class";
-
-// Création de Moi en local pour pas avoir de conflit avec les autres Kévins
-(() => {
-	let k = new Kevin974();
-	participants.push(k);
-})();
-// FIN KEVIN PART
 //FIN
 
 
@@ -86,6 +60,7 @@ let corinne = new Corinne_F();
 participants.push(corinne);
 // participants.push(yan);
 
+import Cyril from './class_cyril';
 let cyril = new Cyril();
 participants.push(cyril);
 
@@ -102,5 +77,3 @@ for(let invite of participants){
   str += '</tr>';
   $('#participants').append(str);
 }
-
-
