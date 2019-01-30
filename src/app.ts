@@ -3,7 +3,11 @@ import * as $ from 'jquery';
 import Participant from './class_participant';
 import {Alex} from './class_alex';
 import Yan from './class_yan';
+<<<<<<< HEAD
+import Amandine_m from './class_amandine_m'
+=======
 import Cyril from './class_cyril';
+>>>>>>> c054f1845e0da2dba8c7e06b9cd43ad833d24128
 let participants:Array<Participant> = [];
 
 import {Denis} from './class_denis';
@@ -43,9 +47,25 @@ participants.push(emir);
 ...
 ...
 */
+
+//  DEB KEVIN PART
+import Kevin974 from "./Kevin974.class";
+
+// Création de Moi en local pour pas avoir de conflit avec les autres Kévins
+(() => {
+	let k = new Kevin974();
+	participants.push(k);
+})();
+// FIN KEVIN PART
 //FIN
+
+
+
+let amandine = new Amandine_m();
+participants.push(amandine);
+
 let yan = new Yan();
-participants.push(yan);
+// participants.push(yan);
 
 import Cyril from './class_cyril';
 let cyril = new Cyril();
