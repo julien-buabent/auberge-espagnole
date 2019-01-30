@@ -31,7 +31,6 @@ export default class Julien_B extends Participant {
   private choisi_musique(){
     let music = new NS_Music.Music();
     let playlist = music.playlist();
-
     this.music = playlist[this.getRndInteger(0, playlist.length-1)];
   }
   private choisi_amis(){
