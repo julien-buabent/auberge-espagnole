@@ -68,7 +68,6 @@ let corinne = new Corinne_F();
 participants.push(corinne);
 // participants.push(yan);
 
-import Cyril from './class_cyril';
 let cyril = new Cyril();
 participants.push(cyril);
 
