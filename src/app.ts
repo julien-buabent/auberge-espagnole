@@ -1,11 +1,18 @@
 console.log(`Lancement du script de gestion d'auberge espagnole`);
 import * as $ from 'jquery';
 import Participant from './class_participant';
-import Emir_b from './class_emir_b';
+import {Alex} from './class_alex';
 import Yan from './class_yan';
+<<<<<<< HEAD
 import Amandine_m from './class_amandine_m'
+=======
+import Cyril from './class_cyril';
+>>>>>>> c054f1845e0da2dba8c7e06b9cd43ad833d24128
 let participants:Array<Participant> = [];
 
+import {Denis} from './class_denis';
+let denis = new Denis();
+participants.push(denis);
 
 
 
@@ -13,17 +20,30 @@ let participants:Array<Participant> = [];
 //Importez votre classe et instanciez votre objet à la suite
 
 
-// /*
-// //Julien Formateur TEST
-// import Julien_B from './class_julien';
-// let julien = new Julien_B();
-// participants.push(julien);
-// */
+
+//Julien Formateur TEST
+import Julien_B from './class_julien_b';
+let julien = new Julien_B();
+participants.push(julien);
+
+let alex = new Alex();
+participants.push(alex)
 
 /*
 A vous =>
-...
-...
+...*/
+import Benoit from './class_benoit';
+let benoit = new Benoit();
+console.log(benoit)
+participants.push(benoit)
+/*...
+//Emir - Alternant
+*/
+import Emir from './class_emir';
+let emir = new Emir();
+// console.dir(emir);
+participants.push(emir);
+/*...
 ...
 ...
 */
@@ -36,6 +56,10 @@ participants.push(amandine);
 
 let yan = new Yan();
 // participants.push(yan);
+
+let cyril = new Cyril();
+
+
 
 
 for(let invite of participants){
