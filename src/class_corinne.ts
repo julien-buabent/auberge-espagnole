@@ -33,10 +33,6 @@ export default class Corinne_F extends Participant{
                             femme: invitFemmeCo
                         };
         
-        console.log(this.name);
-        console.log(this.music);
-        console.log(this.food);
-        console.log(this.friends);
     }
 
 }
