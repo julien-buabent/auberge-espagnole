@@ -49,8 +49,7 @@ participants.push(emir);
 
 
 
-let amandine = new Amandine_m();
-participants.push(amandine);
+
 
 let yan = new Yan();
 //participants.push(yan);
@@ -77,3 +76,20 @@ for(let invite of participants){
   str += '</tr>';
   $('#participants').append(str);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let amandine = new Amandine_m();
+participants.push(amandine);
