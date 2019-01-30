@@ -10,10 +10,10 @@ interface wishList{
 export default class Emir_b extends Participant{
 
   protected _wishlist:wishList;
-  constructor
-  constructWishlist=()=>{
-    this._wishlist["food"] = this.food;
-    this._wishlist["music"] = this.music;
-    this._wishlist["food"] = this.food;
-  }
+  // constructor
+  // constructWishlist=()=>{
+  //   this._wishlist["food"] = this.food;
+  //   this._wishlist["music"] = this.music;
+  //   this._wishlist["food"] = this.food;
+  // }
 }

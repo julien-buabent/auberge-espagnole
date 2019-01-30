@@ -1,5 +1,5 @@
 import { Participant } from './class_participant';
-let Friends = require('ns_friends.ts')
+// let Friends = require('ns_friends.ts')
 
 export default class Yan extends Participant{
   // public _entree:string;
