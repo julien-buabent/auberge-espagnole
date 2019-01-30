@@ -1,25 +1,35 @@
 import Participant from './class_participant';
 import './ns_music';
-
-// let food = require('./ns_food.ts');
-// let friends = require('./ns_friends.ts');
-// let music = require('./ns_music.ts');
-
+import './ns_food';
+import './ns_friends';
 
 export default class Amandine_m extends Participant {
 
-    // public leFood = new food();
     public laMusic = new NS_Music.Music();
-    // public friends = new friends();
-    
+    public LeFood = new NS_Food.Food();
+    public LesAmis = new NS_Friends.Friends();
 
     constructor() {
         super();
         this.name = 'Amandine';
-        let listeMusic = this.laMusic.playlist();
-        // this.leFood.fetch() =  ;
-        
-        console.log(listeMusic);
-    };
 
+        let listeMusic = this.laMusic.playlist();
+        this.music = listeMusic[6];
+
+        let dessertFood = this.LeFood.fetch('desserts');
+        let entreeFood = this.LeFood.fetch('entrees');
+        let platFood = this.LeFood.fetch('plats');
+        this.food = {
+            dessert : dessertFood[3],
+            entree: entreeFood[1],
+            plat: platFood[2]
+        };
+
+        let ami = this.LesAmis.fetch('hommes');
+        let amie = this.LesAmis.fetch('femmes');
+        this.friends = {
+            homme: ami[0],
+            femme: amie[5],
+        }
+    };
 }
