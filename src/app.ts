@@ -53,7 +53,7 @@ import Kevin974 from './Kevin974.class';
 (() => {
 	let k = new Kevin974();
 	participants.push(k);
-}();
+})();
 // FIN KEVIN PART
 
 //FIN
