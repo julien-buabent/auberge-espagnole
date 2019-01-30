@@ -1,5 +1,5 @@
-import {food, friends} from 'class_participant';
-import Participant from 'class_participant';
+import {food, friends} from './class_participant';
+import Participant from './class_participant';
 
 interface wishList{
   food: food,
