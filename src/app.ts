@@ -1,7 +1,6 @@
 console.log(`Lancement du script de gestion d'auberge espagnole`);
 import * as $ from 'jquery';
 import Participant from './class_participant';
-import Emir from './class_emir';
 import Yan from './class_yan';
 let participants:Array<Participant> = [];
 
@@ -20,12 +19,23 @@ participants.push(julien);
 
 /*
 A vous =>
+<<<<<<< Updated upstream
 ...*/
 import Benoit from './class_benoit';
 let benoit = new Benoit();
 console.log(benoit)
 participants.push(benoit)
 /*...
+=======
+//Emir - Alternant
+*/
+import Emir from './class_emir';
+let emir = new Emir();
+// console.dir(emir);
+participants.push(emir);
+/*...
+...
+>>>>>>> Stashed changes
 ...
 */
 //FIN
@@ -33,6 +43,7 @@ let yan = new Yan();
 participants.push(yan);
 
 
+console.dir(participants);
 for(let invite of participants){
   let str = '';
   str += '<tr>';
