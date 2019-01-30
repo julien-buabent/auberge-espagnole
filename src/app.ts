@@ -56,16 +56,6 @@ participants.push(emir);
 ...
 ...
 */
-
-//  DEB KEVIN PART
-import Kevin974 from "./Kevin974.class";
-
-// Création de Moi en local pour pas avoir de conflit avec les autres Kévins
-(() => {
-	let k = new Kevin974();
-	participants.push(k);
-})();
-// FIN KEVIN PART
 //FIN
 
 
