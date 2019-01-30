@@ -1,7 +1,7 @@
 console.log(`Lancement du script de gestion d'auberge espagnole`);
 import * as $ from 'jquery';
 import Participant from './class_participant';
-import Emir_b from './class_emir_b';
+import Emir from './class_emir';
 import Yan from './class_yan';
 let participants:Array<Participant> = [];
 
