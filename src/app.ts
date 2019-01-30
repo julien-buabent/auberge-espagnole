@@ -53,7 +53,7 @@ let emir = new Emir();
 // console.dir(emir);
 participants.push(emir);
 /*...
-Kevin Dupas - Alternant.
+Kevin Dupas
 */
 import Kevin from './class_kevin';
 let kevin = new Kevin();
