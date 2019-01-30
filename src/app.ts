@@ -4,7 +4,6 @@ import Participant from './class_participant';
 import {Alex} from './class_alex';
 import Yan from './class_yan';
 import Amandine_m from './class_amandine_m'
-import Cyril from './class_cyril';
 let participants:Array<Participant> = [];
 
 import {Denis} from './class_denis';
@@ -43,7 +42,7 @@ A vous =>
 ...*/
 import Benoit from './class_benoit';
 let benoit = new Benoit();
-console.log(benoit)
+// console.log(benoit)
 participants.push(benoit)
 /*...
 //Emir - Alternant
@@ -53,9 +52,24 @@ let emir = new Emir();
 // console.dir(emir);
 participants.push(emir);
 /*...
-...
-...
+Kevin Dupas - Alternant.
 */
+import Kevin from './class_kevin';
+let kevin = new Kevin();
+participants.push(kevin);
+
+//FIN
+
+
+//  DEB KEVIN PART
+import Kevin974 from "./Kevin974.class";
+
+// Création de Moi en local pour pas avoir de conflit avec les autres Kévins
+(() => {
+	let k = new Kevin974();
+	participants.push(k);
+})();
+// FIN KEVIN PART
 //FIN
 
 
