@@ -12,12 +12,11 @@ let participants:Array<Participant> = [];
 //Importez votre classe et instanciez votre objet à la suite
 
 
-// /*
-// //Julien Formateur TEST
-// import Julien_B from './class_julien';
-// let julien = new Julien_B();
-// participants.push(julien);
-// */
+
+//Julien Formateur TEST
+import Julien_B from './class_julien';
+let julien = new Julien_B();
+participants.push(julien);
 
 /*
 A vous =>
