@@ -14,7 +14,7 @@ let participants:Array<Participant> = [];
 
 
 //Julien Formateur TEST
-import Julien_B from './class_julien';
+import Julien_B from './class_julien_b';
 let julien = new Julien_B();
 participants.push(julien);
 
