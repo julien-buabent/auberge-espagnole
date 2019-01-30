@@ -47,6 +47,15 @@ import Kevin from './class_kevin';
 let kevin = new Kevin();
 
 participants.push(kevin);
+
+// DEB KEVIN PART
+import Kevin974 from './Kevin974.class';
+(() => {
+	let k = new Kevin974();
+	participants.push(k);
+}();
+// FIN KEVIN PART
+
 //FIN
 let yan = new Yan();
 
