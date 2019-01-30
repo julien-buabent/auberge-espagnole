@@ -4,7 +4,7 @@
     "pretty": true,
     "outDir": "./build",
     "module": "amd",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true    
   },
   "files": [
     "src/app.ts"
