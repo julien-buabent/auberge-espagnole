@@ -25,6 +25,12 @@ A vous =>
 */
 //FIN
 
+//Amandine étudiante
+import Amandine_m from './class_amandine_m'
+
+let amandine = new Amandine_m();
+participants.push(amandine);
+
 
 
 for(let invite of participants){
