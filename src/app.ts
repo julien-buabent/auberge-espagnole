@@ -49,6 +49,15 @@ participants.push(emir);
 
 
 
+// DEB KEVIN PART
+import Kevin974 from './Kevin974.class';
+(() => {
+	let k = new Kevin974();
+	participants.push(k);
+})();
+// FIN KEVIN PART
+
+
 
 
 let yan = new Yan();
@@ -63,6 +72,9 @@ import Cyril from './class_cyril';
 let cyril = new Cyril();
 participants.push(cyril);
 
+
+let amandine = new Amandine_m();
+participants.push(amandine);
 
 
 
@@ -90,6 +102,3 @@ for(let invite of participants){
 
 
 
-
-let amandine = new Amandine_m();
-participants.push(amandine);
