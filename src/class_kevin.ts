@@ -11,7 +11,6 @@ export default class Kevin extends Participant {
     this.miam();
     this.celinedion();
     this.jai_pas_damis();
-    console.log(`${this.name} est prêt !`);
   }
 
 
