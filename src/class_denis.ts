@@ -16,7 +16,7 @@ export class Denis extends Participant {
             "plat": food.fetch("plats")[3],
             "dessert": food.fetch("desserts")[2]
         };
-        this.music = music.playlist()[4];
+        this.music = music.playlist()[6];
         this.friends = {
             "homme": friends.fetch("hommes")[1],
             "femme": friends.fetch("femmes")[0]
