@@ -2,7 +2,6 @@ console.log(`Lancement du script de gestion d'auberge espagnole`);
 import * as $ from 'jquery';
 import Participant from './class_participant';
 import {Alex} from './class_alex';
-import Emir from './class_emir';
 import Yan from './class_yan';
 
 import Amandine_m from './class_amandine_m'
@@ -34,6 +33,14 @@ let benoit = new Benoit();
 console.log(benoit)
 participants.push(benoit)
 /*...
+//Emir - Alternant
+*/
+import Emir from './class_emir';
+let emir = new Emir();
+// console.dir(emir);
+participants.push(emir);
+/*...
+Kevin Dupas
 ...
 */
 //FIN
