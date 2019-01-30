@@ -17,19 +17,10 @@ participants.push(denis);
 //Importez votre classe et instanciez votre objet à la suite
 
 
-<<<<<<< HEAD
-//////////////// PARTICIPANT NICK /////////////////
-import {Nick_S} from "./class_Nick_S";
-let Nick = new Nick_S();
-participants.push(Nick);
 
 
-///////////////// END PARTICIPANT NICK ///////////
 
-/*
-=======
 
->>>>>>> bce8c5ee94b6e7436e5438266956de2cbaa7ca45
 //Julien Formateur TEST
 import Julien_B from './class_julien_b';
 let julien = new Julien_B();
@@ -37,6 +28,14 @@ participants.push(julien);
 
 let alex = new Alex();
 participants.push(alex)
+
+//////////////// PARTICIPANT NICK /////////////////
+import {Nick_S} from "./class_Nick_S";
+let Nick = new Nick_S();
+participants.push(Nick);
+
+
+///////////////// END PARTICIPANT NICK ///////////
 
 /*
 A vous =>
