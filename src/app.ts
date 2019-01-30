@@ -1,8 +1,7 @@
 console.log(`Lancement du script de gestion d'auberge espagnole`);
 import * as $ from 'jquery';
 import Participant from './class_participant';
-import Emir_b from './class_emir_b';
-import Yan from './class_yan';
+import Kevin from './class_kevin';
 let participants:Array<Participant> = [];
 
 
@@ -27,8 +26,8 @@ A vous =>
 ...
 */
 //FIN
-let yan = new Yan();
-participants.push(yan);
+let kevin = new Kevin();
+participants.push(kevin);
 
 
 for(let invite of participants){
