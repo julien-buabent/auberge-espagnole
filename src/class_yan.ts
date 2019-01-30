@@ -1,6 +1,5 @@
 import { Participant } from './class_participant';
 
-
 import "./ns_friends";
 import "./ns_food";
 import "./ns_music";
