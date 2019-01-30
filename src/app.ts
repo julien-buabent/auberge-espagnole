@@ -3,22 +3,13 @@ import * as $ from 'jquery';
 import Participant from './class_participant';
 import {Alex} from './class_alex';
 import Yan from './class_yan';
-import Amandine_m from './class_amandine_m'
-import Cyril from './class_cyril';
 let participants:Array<Participant> = [];
-
-import {Denis} from './class_denis';
-let denis = new Denis();
-participants.push(denis);
 
 
 
 
 //A FAIRE
 //Importez votre classe et instanciez votre objet à la suite
-
-
-
 
 
 
@@ -30,20 +21,12 @@ participants.push(julien);
 let alex = new Alex();
 participants.push(alex)
 
-//////////////// PARTICIPANT NICK /////////////////
-import {Nick_S} from "./class_Nick_S";
-let Nick = new Nick_S();
-participants.push(Nick);
-
-
-///////////////// END PARTICIPANT NICK ///////////
-
 /*
 A vous =>
 ...*/
 import Benoit from './class_benoit';
 let benoit = new Benoit();
-// console.log(benoit)
+console.log(benoit)
 participants.push(benoit)
 /*...
 //Emir - Alternant
@@ -54,45 +37,15 @@ let emir = new Emir();
 participants.push(emir);
 /*...
 Kevin Dupas
+...
 */
-import Kevin from './class_kevin';
-let kevin = new Kevin();
-participants.push(kevin);
-
 //FIN
-
-
-//  DEB KEVIN PART
-import Kevin974 from "./Kevin974.class";
-
-// Création de Moi en local pour pas avoir de conflit avec les autres Kévins
-(() => {
-	let k = new Kevin974();
-	participants.push(k);
-})();
-// FIN KEVIN PART
-//FIN
-
-
-
-let amandine = new Amandine_m();
-participants.push(amandine);
-
 let yan = new Yan();
-//participants.push(yan);
-
-import Corinne_F from './class_corinne';
-let corinne = new Corinne_F();
-participants.push(corinne);
-// participants.push(yan);
-
-let cyril = new Cyril();
-participants.push(cyril);
-
-
+participants.push(yan);
 
 
 for(let invite of participants){
+  console.log(invite);
   let str = '';
   str += '<tr>';
   str += `<td>${invite.name}</td>`;
@@ -102,5 +55,3 @@ for(let invite of participants){
   str += '</tr>';
   $('#participants').append(str);
 }
-
-
