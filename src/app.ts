@@ -3,6 +3,7 @@ import * as $ from 'jquery';
 import Participant from './class_participant';
 import Emir from './class_emir';
 import Yan from './class_yan';
+import Cyril from './class_cyril';
 let participants:Array<Participant> = [];
 
 
@@ -29,6 +30,8 @@ A vous =>
 //FIN
 let yan = new Yan();
 participants.push(yan);
+
+let cyril = new Cyril();
 
 
 for(let invite of participants){
