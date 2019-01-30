@@ -3,11 +3,8 @@ import * as $ from 'jquery';
 import Participant from './class_participant';
 import {Alex} from './class_alex';
 import Yan from './class_yan';
-<<<<<<< HEAD
 import Amandine_m from './class_amandine_m'
-=======
 import Cyril from './class_cyril';
->>>>>>> c054f1845e0da2dba8c7e06b9cd43ad833d24128
 let participants:Array<Participant> = [];
 
 import {Denis} from './class_denis';
@@ -33,6 +30,7 @@ participants.push(julien);
 let alex = new Alex();
 participants.push(alex)
 
+<<<<<<< HEAD
 //////////////// PARTICIPANT NICK /////////////////
 import {Nick_S} from "./class_Nick_S";
 let Nick = new Nick_S();
@@ -40,6 +38,8 @@ participants.push(Nick);
 
 
 ///////////////// END PARTICIPANT NICK ///////////
+=======
+>>>>>>> 80e6eda745bb348f75574b249a99097fe74da7c2
 
 /*
 A vous =>
@@ -77,7 +77,15 @@ let amandine = new Amandine_m();
 participants.push(amandine);
 
 let yan = new Yan();
+<<<<<<< HEAD
+//participants.push(yan);
+
+import Corinne_F from './class_corinne';
+let corinne = new Corinne_F();
+participants.push(corinne);
+=======
 // participants.push(yan);
+>>>>>>> fdf25b6cf7363b79d76049fa65dcb6677b18eafa
 
 import Cyril from './class_cyril';
 let cyril = new Cyril();
