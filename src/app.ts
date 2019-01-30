@@ -13,8 +13,12 @@ participants.push(denis);
 
 
 
+
 //A FAIRE
 //Importez votre classe et instanciez votre objet à la suite
+
+
+
 
 
 
@@ -25,6 +29,14 @@ participants.push(julien);
 
 let alex = new Alex();
 participants.push(alex)
+
+//////////////// PARTICIPANT NICK /////////////////
+import {Nick_S} from "./class_Nick_S";
+let Nick = new Nick_S();
+participants.push(Nick);
+
+
+///////////////// END PARTICIPANT NICK ///////////
 
 /*
 A vous =>
@@ -67,6 +79,11 @@ let amandine = new Amandine_m();
 participants.push(amandine);
 
 let yan = new Yan();
+//participants.push(yan);
+
+import Corinne_F from './class_corinne';
+let corinne = new Corinne_F();
+participants.push(corinne);
 // participants.push(yan);
 
 let cyril = new Cyril();
@@ -85,3 +102,5 @@ for(let invite of participants){
   str += '</tr>';
   $('#participants').append(str);
 }
+
+
