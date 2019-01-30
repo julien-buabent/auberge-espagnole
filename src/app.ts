@@ -3,6 +3,7 @@ import * as $ from 'jquery';
 import Participant from './class_participant';
 import {Alex} from './class_alex';
 import Yan from './class_yan';
+import Amandine_m from './class_amandine_m'
 import Cyril from './class_cyril';
 let participants:Array<Participant> = [];
 
@@ -55,14 +56,26 @@ import Kevin974 from "./Kevin974.class";
 })();
 // FIN KEVIN PART
 //FIN
+
+
+
+let amandine = new Amandine_m();
+participants.push(amandine);
+
 let yan = new Yan();
+<<<<<<< HEAD
 //participants.push(yan);
 
 import Corinne_F from './class_corinne';
 let corinne = new Corinne_F();
 participants.push(corinne);
+=======
+// participants.push(yan);
+>>>>>>> fdf25b6cf7363b79d76049fa65dcb6677b18eafa
 
+import Cyril from './class_cyril';
 let cyril = new Cyril();
+participants.push(cyril);
 
 
 
