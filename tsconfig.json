@@ -3,7 +3,7 @@
     "target": "es5",
     "pretty": true,
     "outDir": "./build",
-    "module": "amd",
+    "module": "umd",
     "allowSyntheticDefaultImports": true
   },
   "files": [
