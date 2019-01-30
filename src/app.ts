@@ -32,7 +32,7 @@ A vous =>
 
 
 let amandine = new Amandine_m();
-// participants.push(amandine);
+participants.push(amandine);
 
 let yan = new Yan();
 // participants.push(yan);
