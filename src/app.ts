@@ -3,29 +3,9 @@ import * as $ from 'jquery';
 import Participant from './class_participant';
 let participants:Array<Participant> = [];
 
-
-
-//A FAIRE
-//Importez votre classe et instanciez votre objet à la suite
-
-
-/*
-//Julien Formateur TEST
-import Julien_B from './class_julien';
-let julien = new Julien_B();
-participants.push(julien);
-*/
-
-/*
-A vous =>
-...
-...
-...
-...
-*/
-//FIN
-
-
+import {Denis} from './class_denis';
+let denis = new Denis();
+participants.push(denis);
 
 for(let invite of participants){
   let str = '';
