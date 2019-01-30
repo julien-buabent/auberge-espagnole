@@ -42,8 +42,6 @@ participants.push(emir);
 let yan = new Yan();
 participants.push(yan);
 
-
-console.dir(participants);
 for(let invite of participants){
   let str = '';
   str += '<tr>';
