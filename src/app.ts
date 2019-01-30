@@ -1,6 +1,7 @@
 console.log(`Lancement du script de gestion d'auberge espagnole`);
 import * as $ from 'jquery';
 import Participant from './class_participant';
+import {Alex} from './class_alex';
 let participants:Array<Participant> = [];
 
 
@@ -15,6 +16,9 @@ import Julien_B from './class_julien';
 let julien = new Julien_B();
 participants.push(julien);
 */
+
+let alex = new Alex();
+participants.push(alex)
 
 /*
 A vous =>
