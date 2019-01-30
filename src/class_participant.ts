@@ -1,10 +1,10 @@
 //INTERFACE
-interface food {
+export interface food {
   entree: string,
   plat: string,
   dessert: string
 }
-interface friends {
+export interface friends {
   homme: string,
   femme: string
 }
