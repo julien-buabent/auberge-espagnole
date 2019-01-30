@@ -43,6 +43,10 @@ participants.push(emir);
 Kevin Dupas
 ...
 */
+import Kevin from './class_kevin';
+let kevin = new Kevin();
+
+participants.push(kevin);
 //FIN
 let yan = new Yan();
 
