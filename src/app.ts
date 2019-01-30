@@ -4,6 +4,10 @@ import Participant from './class_participant';
 import {Alex} from './class_alex';
 import Emir from './class_emir';
 import Yan from './class_yan';
+
+import Amandine_m from './class_amandine_m'
+import Cyril from './class_cyril';
+
 let participants:Array<Participant> = [];
 
 
@@ -34,7 +38,21 @@ participants.push(benoit)
 */
 //FIN
 let yan = new Yan();
+
 participants.push(yan);
+
+//participants.push(yan);
+
+import Corinne_F from './class_corinne';
+let corinne = new Corinne_F();
+participants.push(corinne);
+// participants.push(yan);
+
+let cyril = new Cyril();
+participants.push(cyril);
+
+
+
 
 
 for(let invite of participants){
