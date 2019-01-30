@@ -3,12 +3,8 @@ import * as $ from 'jquery';
 import Participant from './class_participant';
 import {Alex} from './class_alex';
 import Yan from './class_yan';
-import Cyril from './class_cyril';
 let participants:Array<Participant> = [];
-
-import {Denis} from './class_denis';
-let denis = new Denis();
-participants.push(denis);
+// participants.push(denis);
 
 
 
@@ -49,9 +45,11 @@ participants.push(kevin);
 //FIN
 
 let yan = new Yan();
-participants.push(yan);
+// participants.push(yan);
 
+import Cyril from './class_cyril';
 let cyril = new Cyril();
+participants.push(cyril);
 
 
 
