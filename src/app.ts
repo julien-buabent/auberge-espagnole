@@ -47,7 +47,9 @@ participants.push(emir);
 let yan = new Yan();
 participants.push(yan);
 
+import Cyril from './class_cyril';
 let cyril = new Cyril();
+participants.push(cyril);
 
 
 
