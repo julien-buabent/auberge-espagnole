@@ -5,9 +5,18 @@ let participants:Array<Participant> = [];
 
 
 
+
 //A FAIRE
 //Importez votre classe et instanciez votre objet à la suite
 
+
+//////////////// PARTICIPANT NICK /////////////////
+import {Nick_S} from "./class_Nick_S";
+let Nick = new Nick_S();
+participants.push(Nick);
+
+
+///////////////// END PARTICIPANT NICK ///////////
 
 /*
 //Julien Formateur TEST
@@ -37,3 +46,5 @@ for(let invite of participants){
   str += '</tr>';
   $('#participants').append(str);
 }
+
+
