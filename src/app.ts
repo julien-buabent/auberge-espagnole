@@ -26,6 +26,7 @@ participants.push(julien);
 let alex = new Alex();
 participants.push(alex)
 
+
 /*
 A vous =>
 ...*/
@@ -62,9 +63,19 @@ let amandine = new Amandine_m();
 participants.push(amandine);
 
 let yan = new Yan();
-// participants.push(yan);
+<<<<<<< HEAD
+//participants.push(yan);
 
+import Corinne_F from './class_corinne';
+let corinne = new Corinne_F();
+participants.push(corinne);
+=======
+// participants.push(yan);
+>>>>>>> fdf25b6cf7363b79d76049fa65dcb6677b18eafa
+
+import Cyril from './class_cyril';
 let cyril = new Cyril();
+participants.push(cyril);
 
 
 
