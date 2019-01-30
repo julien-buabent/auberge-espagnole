@@ -1,4 +1,8 @@
 import { Participant } from './class_participant';
+<<<<<<< HEAD
+=======
+
+>>>>>>> c054f1845e0da2dba8c7e06b9cd43ad833d24128
 
 import "./ns_friends";
 import "./ns_food";
