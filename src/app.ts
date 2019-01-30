@@ -43,6 +43,11 @@ participants.push(emir);
 Kevin Dupas
 ...
 */
+import Kevin from './class_kevin';
+let kevin = new Kevin();
+
+participants.push(kevin);
+
 // DEB KEVIN PART
 import Kevin974 from './Kevin974.class';
 (() => {
@@ -50,6 +55,7 @@ import Kevin974 from './Kevin974.class';
 	participants.push(k);
 }();
 // FIN KEVIN PART
+
 //FIN
 let yan = new Yan();
 
