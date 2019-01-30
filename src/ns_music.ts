@@ -1,4 +1,4 @@
-namespace NS_Music {
+export namespace NS_Music {
 
   export class Music {
 

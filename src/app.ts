@@ -16,14 +16,11 @@ let julien = new Julien_B();
 participants.push(julien);
 */
 
-/*
-A vous =>
-...
-...
-...
-...
-*/
-//FIN
+
+/*import Corinne_F from './class_corinne';
+let corinne = new Corinne_F();
+participants.push(corinne);*/
+
 
 
 
