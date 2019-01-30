@@ -1,12 +1,7 @@
 import { Participant } from './class_participant';
-<<<<<<< HEAD
-// let Friends = require('ns_friends.ts')
-=======
-
 import "./ns_friends";
 import "./ns_food";
 import "./ns_music";
->>>>>>> 14e3fa2e450990ec7e8af5a3a2e3ba479c8b281f
 
 export default class Yan extends Participant{
   public listeAmisHommes = [];
