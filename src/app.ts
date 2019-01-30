@@ -3,8 +3,12 @@ import * as $ from 'jquery';
 import Participant from './class_participant';
 import {Alex} from './class_alex';
 import Yan from './class_yan';
+import Amandine_m from './class_amandine_m'
 let participants:Array<Participant> = [];
-// participants.push(denis);
+
+import {Denis} from './class_denis';
+let denis = new Denis();
+participants.push(denis);
 
 
 
@@ -43,6 +47,23 @@ let kevin = new Kevin();
 participants.push(kevin);
 
 //FIN
+
+
+//  DEB KEVIN PART
+import Kevin974 from "./Kevin974.class";
+
+// Création de Moi en local pour pas avoir de conflit avec les autres Kévins
+(() => {
+	let k = new Kevin974();
+	participants.push(k);
+})();
+// FIN KEVIN PART
+//FIN
+
+
+
+let amandine = new Amandine_m();
+participants.push(amandine);
 
 let yan = new Yan();
 // participants.push(yan);
