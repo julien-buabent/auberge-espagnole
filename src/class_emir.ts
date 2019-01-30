@@ -34,6 +34,7 @@ export default class Emir extends Participant{
     this.amiFemme = this.getRandomItem(listFemmes);
     let myFriends:friends = {homme:this.amiHomme, femme:this.amiFemme};
     this.friends = myFriends;
+    this.music = this.getRandomItem(listMusic);
   }
 
   get entree():string{
