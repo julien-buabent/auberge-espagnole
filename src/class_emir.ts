@@ -9,9 +9,6 @@ let foodList = new NS_Food.Food();
 let friendList = new NS_Friends.Friends();
 let musicList = new NS_Music.Music();
 
-let listEntrees:string[] = foodList.fetch("entrees");
-let listPlats:string[] = foodList.fetch("plats");
-let listDesserts:string[] = foodList.fetch("desserts");
 let listHommes:string[] = friendList.fetch("hommes");
 let listFemmes:string[] = friendList.fetch("femmes");
 let listMusic:string[] = musicList.playlist();
@@ -22,12 +19,13 @@ export default class Emir extends Participant{
   private _dessert:string;
   private _amiHomme:string;
   private _amiFemme:string;
+  
   constructor(){
     super();
     this.name = "Emir";
-    this.entree = this.getRandomItem(listEntrees);
-    this.plat = this.getRandomItem(listPlats);
-    this.dessert = this.getRandomItem(listDesserts);
+    this.entree = foodList.fetchOne("entrees");
+    this.plat = foodList.fetchOne("plats");
+    this.dessert = foodList.fetchOne("desserts");
     let myFood:food = {entree:this.entree, plat:this.plat, dessert:this.dessert};
     this.food = myFood;
     this.amiHomme = this.getRandomItem(listHommes);
