@@ -22,7 +22,7 @@ namespace NS_Food {
     // if no element index is specified, it returns a random element
     public fetchOne(type:string, element?:number):string{  
       let requestedArray: Array<string> = this.fetch(type);
-      let index: number = (element) ? element : Math.floor(Math.random() * requestedArray.length);
+      let index: number = (element) ? element : Math.floor(Math.random() * (requestedArray.length-1));
 
       if(typeof requestedArray[index] === 'undefined'){
         console.error(`Food: products.${type} was defined but ${type}[${index}] does not exist`);
