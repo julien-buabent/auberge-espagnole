@@ -67,7 +67,7 @@ export default class Emir extends Participant{
   }
   getRandomItem = (bucket:string[]):string => {
     let bucketLength = bucket.length;
-    let randomElementIndex:number = tools.getRandomNumberBetween(0, bucketLength);
+    let randomElementIndex:number = tools.getRandomNumberBetween(0, bucketLength-1);
     return bucket[randomElementIndex];
   };
 }
