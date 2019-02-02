@@ -4,25 +4,36 @@ import "./ns_music";
 import "./ns_friends";
 import * as tools from "./tools";
 
-let foodList = new NS_Food.Food();
-let friendList = new NS_Friends.Friends();
-let musicList = new NS_Music.Music();
-
 export default class Emir extends Participant{
   
   constructor(){
     super();
     this.name = "Emir";
-    this.food = {entree:foodList.fetchOne("entrees"), plat:foodList.fetchOne("plats"), dessert:foodList.fetchOne("desserts")};
-    this.friends = {homme:this.getRandomItem(friendList.fetch("hommes")), femme:this.getRandomItem(friendList.fetch("femmes"))};
-    this.music = this.getRandomItem(musicList.playlist());
+    this.buildFoodList();
+    this.buildFriendsList();
+    this.selectMusic();
     this.declareReady();
+  } 
+
+  private buildFoodList():void{
+    let foodList = new NS_Food.Food();
+    let myEntree:string = foodList.fetchOne("entrees");
+    let myPlat:string = foodList.fetchOne("plats");
+    let myDessert:string = foodList.fetchOne("desserts");
+    this.food = {entree: myEntree, plat: myPlat, dessert:myDessert};
+  }  
+
+  private buildFriendsList():void{
+    let friendList = new NS_Friends.Friends();
+    let listHommes:string[] = friendList.fetch("hommes");
+    let listFemmes:string[] = friendList.fetch("femmes");
+    this.friends = {homme:tools.getRandomItem(listHommes), femme:tools.getRandomItem(listFemmes)};
   }
 
- 
-  getRandomItem = (bucket:string[]):string => {
-    let bucketLength = bucket.length;
-    let randomElementIndex:number = tools.getRandomNumberBetween(0, bucketLength-1);
-    return bucket[randomElementIndex];
-  };
+  private selectMusic():void{
+    let musicList = new NS_Music.Music();
+    this.music = tools.getRandomItem(musicList.playlist());
+  }
+  
+
 }
