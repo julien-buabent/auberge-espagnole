@@ -1,6 +1,6 @@
 console.log(`Lancement du script de gestion d'auberge espagnole`);
 import * as $ from 'jquery';
-import Participant from './class_participant';
+import Participant, { food, friends } from './class_participant';
 import {Alex} from './class_alex';
 import Yan from './class_yan';
 import Amandine_m from './class_amandine_m'
@@ -32,7 +32,7 @@ A vous =>
 ...*/
 import Benoit from './class_benoit';
 let benoit = new Benoit();
-console.log(benoit)
+//console.log(benoit)
 participants.push(benoit)
 /*...
 //Emir - Alternant
@@ -78,12 +78,32 @@ participants.push(amandine);
 
 
 for(let invite of participants){
+  //we check if name is defined. If not we pass "undefined" as string
+  let inviteName:string = (typeof invite.name === 'undefined') ? "undefined" : invite.name;
+
+  //we check if music is defiend. if not we pass "undefined" as string
+  let inviteMusic:string = (typeof invite.music === 'undefined') ? "undefined" : invite.music;
+
+  //we check if food object is defined. if not, we pass a food object with all elements "undefined" as string
+  let inviteFood:food = (typeof invite.food === 'undefined') ? {entree: "undefined", plat: "undefined", dessert: "undefined"} : invite.food;
+  //we check if each element of food object is defined. IF not, we pass "undefined" as string for that element 
+  for(let foodType in invite.food){
+    foodType = (typeof foodType === 'undefined') ? "undefined" : foodType;
+  }
+  
+  //we check if friends object is defined. if not, we pass a friends object with all elements "undefined" as string
+  let inviteFriends:friends = (typeof invite.friends === 'undefined') ? {homme: "undefined", femme: "undefined"} : invite.friends;
+  //we check if each element of friends object is defined. IF not, we pass "undefined" as string for that element 
+  for(let friendType in invite.friends){
+    friendType = (typeof friendType === 'undefined') ? "undefined" : friendType;
+  }
+
   let str = '';
   str += '<tr>';
-  str += `<td>${invite.name}</td>`;
-  str += `<td>Entrée : ${invite.food.entree}<br />Plat : ${invite.food.plat}<br />Dessert : ${invite.food.dessert}</td>`;
-  str += `<td>${invite.music}</td>`;
-  str += `<td>Homme : ${invite.friends.homme}<br />Femme : ${invite.friends.femme}</td>`;
+  str += `<td>${inviteName}</td>`;
+  str += `<td>Entrée : ${inviteFood.entree}<br />Plat : ${inviteFood.plat}<br />Dessert : ${inviteFood.dessert}</td>`;
+  str += `<td>${inviteMusic}</td>`;
+  str += `<td>Homme : ${inviteFriends.homme}<br />Femme : ${inviteFriends.femme}</td>`;
   str += '</tr>';
   $('#participants').append(str);
 }

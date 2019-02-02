@@ -5,7 +5,7 @@ export default class Cyril extends Participant
     constructor()
     {
         super();
-        console.log('==> Okè !');
+        //console.log('==> Okè !');
     }
 }
 
