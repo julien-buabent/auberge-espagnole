@@ -42,6 +42,10 @@ export default class Participant {
     this._friends = invites;
   }
 
+  declareReady(){
+    console.log(`${this.name} est prêt !`);
+  }
+
 }
 
 export { Participant }
